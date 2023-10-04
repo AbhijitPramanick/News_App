@@ -78,6 +78,9 @@ nav {
 .hover-link:active {
   color: red;
 }
+.nav-item.active {
+  color: var(--accent-color);
+}
 .search-bar {
   gap: 2vw;
 }
@@ -92,7 +95,7 @@ nav {
 .search-button {
   background-color: var(--accent-color);
   color: white;
-  width: 5vw;
+  width: 8vw;
   height: 100%;
   padding: 0.3vw;
   border-radius: 8px;
