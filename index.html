@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="main-nav container flex">
+        <a href="#" class="company_logo flex">
+          <img src="./assets/logo.png" alt="Company logo" />
+          <h1>Sunrise News</h1>
+        </a>
+        <div class="nav-links">
+          <ul class="flex">
+            <li class="hover-link nav-item">Sports</li>
+            <li class="hover-link nav-item">Finance</li>
+            <li class="hover-link nav-item">Politics</li>
+          </ul>
+        </div>
+        <div class="search-bar flex">
+          <input type="text" class="news-input" placeholder="e.g. Science" />
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="cards-container container flex">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="https://via.placeholder.com/400x200"
+              alt=""
+              id="news-img"
+            />
+            <div class="card-content">
+              <h3>This is the title</h3>
+              <h6>End Gadget 05/10/2023</h6>
+              <p class="nes-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                placeat vitae consectetur aliquid saepe quo libero? Inventore
+                aspernatur tempora iure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
